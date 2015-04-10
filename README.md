@@ -18,11 +18,11 @@ Dronard
 The whole project is meant to make a quadcopter find avalanche victims automaticly.
 This is ofcourse not applicable here in the Netherlands, so we've adjusted the specifactions to make it more doable.
 
-Branches
+Sections
 -------
-There are several branches within this project.
-Different persons are in charge of each branche.
-The following branches and leaders have been set:
+There are several sections within this project.
+Different persons are in charge of each section.
+The following sections and leaders have been set:
 
 * Pi-APM Comm (David)
 * Pi-GC Comm
