@@ -26,4 +26,5 @@ The following sections and leaders have been set:
 
 * Pi-APM Comm (David)
 * Pi-GC Comm
+* Pi-Ultrasoon (Mike)
 * ...
