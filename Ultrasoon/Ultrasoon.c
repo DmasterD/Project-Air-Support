@@ -52,10 +52,10 @@ int main(void)
 	while(1) {
 		
 		if(measure == 1) {	
-				SendDistance();
-				measure = 0;
+			SendDistance();
+			measure = 0;
 		}
-				
+		
 		if(c == 'r')
 		{
 			UltrasoonMeasure();
