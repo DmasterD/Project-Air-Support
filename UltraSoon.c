@@ -1,10 +1,10 @@
 //-------------------------------------------------------//
-//			UltraSoon.c									 //
-//			Testing Ultrasoon Sensor					 //
-//			Created:	Donderdag 8 April 2015 10:03	 // 
-//			Author:		Mike van Lieshout				 //
-//			Company:	HoTechnology					 //
-//			Project:	Air Support						 //
+//	UltraSoon.c					 //
+//	Testing Ultrasoon Sensor			 //
+//	Created:	Donderdag 8 April 2015 10:03	 // 
+//	Author:		Mike van Lieshout		 //
+//	Company:	HoTechnology			 //
+//	Project:	Air Support			 //
 //-------------------------------------------------------//
 
 #define F_CPU			32000000UL 
@@ -12,9 +12,9 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
-#define ENABLE_UART_E0   1			//Uart Enable
+#define ENABLE_UART_E0   1		//Uart Enable
 #define E0_BAUD          912600		//32Mhz Supported
-#define E0_CLK2X         0			//Dubble Clock Speed
+#define E0_CLK2X         0		//Dubble Clock Speed
 
 #include <util/delay.h>
 #include <avr/pgmspace.h>
