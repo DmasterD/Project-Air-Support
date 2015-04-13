@@ -72,6 +72,14 @@ int DecodeMAVLinkMsg(mavlink_message_t msg) {
 			break;
 			
 		case MAVLINK_MSG_ID_STATUSTEXT: //253
+			//decode status text
+			mavlink_msg_statustext_decode(&msg, &statustext);
+			
+			//show result
+			printf("\n[%d] Status text!", msg.msgid);
+			
+			printf("\n\tSeverity: %d", statustext.severity);
+			printf("\n\tText: %s", statustext.text);
 			
 			break;
 			
@@ -112,7 +120,7 @@ int SendCommand(int fd, mavlink_command_long_t command) {
 	//compress & copy to buffer
 	uint16_t packagelen = mavlink_msg_to_send_buffer(sendbytes, &msg);
 	
-	//send heartbeat
+	//send command
 	SendData(fd, packagelen, sendbytes);
 	
 	return 0;
