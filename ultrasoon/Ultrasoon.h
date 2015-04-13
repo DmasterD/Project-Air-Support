@@ -1,10 +1,10 @@
 
 void Config32MHzClock(void)
 {
-	CCP			=	CCP_IOREG_gc;
-	OSC.CTRL   |=	OSC_RC32MEN_bm;
+	CCP		=	CCP_IOREG_gc;
+	OSC.CTRL   	|=	OSC_RC32MEN_bm;
 	while (!(OSC.STATUS & OSC_RC32MRDY_bm)) ;
-	CCP			=	CCP_IOREG_gc;
+	CCP		=	CCP_IOREG_gc;
 	CLK.CTRL	=	CLK_SCLKSEL_RC32M_gc;
 }
 
@@ -20,7 +20,7 @@ void InitInterupt1(void)
 	PORTB.INT0MASK	=	PIN0_bm;
 	PORTB.PIN0CTRL	=	PORT_ISC_RISING_gc;
 	PORTB.INTCTRL	=	PORT_INT0LVL_LO_gc;
-	PMIC.CTRL	   |=	PMIC_LOLVLEN_bm;
+	PMIC.CTR       |=	PMIC_LOLVLEN_bm;
 	sei();
 }
 
@@ -29,18 +29,18 @@ void InitInterupt2(void)
 	PORTB.INT1MASK	=	PIN1_bm;
 	PORTB.PIN1CTRL	=	PORT_ISC_FALLING_gc;
 	PORTB.INTCTRL	=	PORT_INT1LVL_MED_gc;
-	PMIC.CTRL	   |=	PMIC_MEDLVLEN_bm;
+	PMIC.CTRL      |=	PMIC_MEDLVLEN_bm;
 	sei();
 }
 
 void InitTimer(void)
 {
-	TCC0.CTRLD		=	TC_EVACT_CAPT_gc|			// Event capture
-	TC_EVSEL_CH0_gc;			// For Channel 0
-	TCC0.CTRLB		=	TC0_CCAEN_bm;				// Enable Inp. Capt. Ch. A
-	TCC0.CTRLA		=	TC_CLKSEL_DIV8_gc;			// Prescaling 8
-	TCC0.PER		=	0XFFFF;						// Maximal value
-	TCC0.CTRLFSET	=	TC_CMD_RESTART_gc;			// start TImer
+	TCC0.CTRLD		=	TC_EVACT_CAPT_gc|	// Event capture
+	TC_EVSEL_CH0_gc;					// For Channel 0
+	TCC0.CTRLB		=	TC0_CCAEN_bm;		// Enable Inp. Capt. Ch. A
+	TCC0.CTRLA		=	TC_CLKSEL_DIV8_gc;	// Prescaling 8
+	TCC0.PER		=	0XFFFF;			// Maximal value
+	TCC0.CTRLFSET		=	TC_CMD_RESTART_gc;	// start TImer
 }
 
 ISR(PORTB_INT0_vect)
@@ -50,9 +50,9 @@ ISR(PORTB_INT0_vect)
 
 ISR(PORTB_INT1_vect)
 {
-	measure			=	1;
+	measure		=	1;
 	PORTE_OUTTGL	=	PIN0_bm;
-	echo			=	TCC0.CCA;
+	echo		=	TCC0.CCA;
 }
 
 void emptybuffer(void)
