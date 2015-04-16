@@ -6,6 +6,9 @@
 	#include <stdint.h>
 	#include <wiringSerial.h>
 	
+	#define BAUDRATE 	115200
+	#define APMDEVICE 	"/dev/ttyAMA0"		//"/dev/ttyACM0"
+	
 	int OpenAPM(void);
 	void CloseAPM(int fd);
 	int ReadData(int fd, uint16_t *datalen, uint8_t *data);
