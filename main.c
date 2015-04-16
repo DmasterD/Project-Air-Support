@@ -5,7 +5,7 @@
  ** 																			**
  ** Author:				David Meijer											**
  ** Date of creation:	08 Apr 2015	15:15										**
- ** Last modification:	09 Apr 2015	10:14										**
+ ** Last modification:	16 Apr 2015	10:36										**
  **																				**
  ** Contents:	Main function for:												**
  ** 			- Sending commands to the APM 2.5 with the MAVLink protocol		**
