@@ -17,33 +17,43 @@
 
 #include "main.h"
 
+//Function prototypes that couldn't be put in the header file for some unknown reason
 int DetectMAVLink(uint8_t *buffer, uint32_t bytes, mavlink_message_t *msg);
 int DecodeMAVLinkMsg(mavlink_message_t msg);
-
 int SendHeartbeat(int fd);
 int SendCommand(int fd, mavlink_command_long_t command);
 
 int main(void) {
 	
-	int APMdesc = 0;
-	uint8_t data[MAVLINK_MAX_PACKET_LEN] = {0x00};
-	uint16_t datalen = 0;
-	mavlink_message_t msg;
+	int APMdesc = 0; 				//File descriptor for APM
+	uint8_t data[MAVLINK_MAX_PACKET_LEN] = {0x00};	//Data buffer for all MAVLink messages
+	uint16_t datalen = 0;				//Stores length of data
+	mavlink_message_t msg;				//The MAVLink message structure
 	
-	mavlink_command_long_t command;
-	command.param1 = 0; //0 to disarm
+	mavlink_command_long_t command;			//The MAVLink command structure
+	command.param1 = 0; 				//Setting param1 to 0 to disarm
 	
-	uint16_t idmsg = 0;
+	uint16_t idmsg = 0;				//Will contain MAVLink msg ID
 
+	//Opening APM and applying file descriptor to APMdesc
 	APMdesc = OpenAPM();
 	
 	int i = 0;
 	while(1){
+		//Read buffer from USB port
 		ReadData(APMdesc, &datalen, data);
+		
+		//Checking if a MAVLink package is complete and putting it into the message structure
 		if (DetectMAVLink(data, datalen, &msg)) {
+			
+			//Decode MAVLink message and applying the message ID to idmsg
 			idmsg = DecodeMAVLinkMsg(msg);
+			
+			//Send heartbeat back if heartbeat was received
 			if (idmsg == MAVLINK_MSG_ID_HEARTBEAT) {
 				SendHeartbeat(APMdesc);
+				
+				//Send arm or disarm command after 10 heartbeats
 				if (i >= 10) {
 					
 					command.command			 = MAV_CMD_COMPONENT_ARM_DISARM;
