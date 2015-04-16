@@ -54,16 +54,16 @@ int main(void)
 		if(measure == 1) {	
 			SendDistance();
 			measure = 0;
-		}
+		};
 		
 		if(c == 'r')
 		{
 			UltrasoonMeasure();
-		}
+		};
 		
 		if(c == 't')
 		{
 			testmode();
-		}
-	}
-}
+		};
+	};
+};
