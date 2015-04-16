@@ -9,9 +9,6 @@
 	#include "Dronard/MAVLink/ardupilotmega/mavlink.h"
 	#include "Dronard/USBFunctions.h"
 	#include "Dronard/MAVLinkFunctions.h"
-
-	#define BAUDRATE 	115200
-	#define APMDEVICE 	"/dev/ttyACM0"
 					
 	uint16_t packagesize 						= 0;			
 	uint8_t readbytes[MAVLINK_MAX_PACKET_LEN] 	= {0x00};
