@@ -56,6 +56,7 @@ int main(void) {
 				//Send arm or disarm command after 10 heartbeats
 				if (i >= 10) {
 					
+					//Setting command structure values for the arming command
 					command.command			 = MAV_CMD_COMPONENT_ARM_DISARM;
 					command.confirmation 	 = 0;
 					command.target_component = MAV_COMP_ID_SYSTEM_CONTROL;
