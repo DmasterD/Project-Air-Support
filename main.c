@@ -61,6 +61,7 @@ int main(void) {
 					command.target_component = MAV_COMP_ID_SYSTEM_CONTROL;
 					command.target_system	 = 1;
 					
+					//If the previous command was a disarm, send arm, else send disarm.
 					if(command.param1 == 0) {
 						command.param1 = 1;
 						printf("\nSending arm command...");
@@ -69,6 +70,7 @@ int main(void) {
 						printf("\nSending disarm command...");
 					}
 	
+					//Send command package
 					SendCommand(APMdesc, command);
 					i = 0;
 				}
