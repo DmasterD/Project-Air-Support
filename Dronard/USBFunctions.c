@@ -9,7 +9,7 @@ int OpenAPM(void){
 		exit(fd);
 	}
 	
-	printf("Succesfully opened APM device.");
+	printf("Succesfully opened APM device.\n");
 
 	return fd;
 };
