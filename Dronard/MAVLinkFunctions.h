@@ -1,7 +1,7 @@
 #ifndef _MAVLINKFUNCTIONS_H_
 	#define _MAVLINKFUNCTIONS_H_
 	
-	#include "MAVLink/ardupilotmega/mavlink.h"
+	#include "MAVLink/pixhawk/mavlink.h"
 	#include "USBFunctions.h"
 	#include <stdio.h>
 	#include <stdbool.h>
@@ -11,8 +11,10 @@
 	uint8_t AIRSUPPORT_MAV_MODE 	= MAV_MODE_PREFLIGHT;
 	uint8_t AIRSUPPORT_MAV_STATE 	= MAV_STATE_STANDBY;
 
-	int DetectMAVLink(uint8_t *buffer, uint32_t bytes, mavlink_message_t *msg);
+	int DetectMAVLink(int fd, uint8_t *buffer, uint32_t bytes, mavlink_message_t *msg);
 	int DecodeMAVLinkMsg(mavlink_message_t msg);
-	int SendCommand(int fd, mavlink_command_long_t command);
+	int ReqDatastream(int fd, int streamid);
+	int SetMode(int fd, uint8_t mode);
+	int TakeOffTest(int fd);
 
 #endif //_MAVLINKFUNCTIONS_H_
