@@ -5,6 +5,7 @@
 	#include <stdio.h>
 	#include <stdint.h>
 	#include <stdlib.h>
+	#include <sys/time.h>
 	
 	#include "Dronard/MAVLink/ardupilotmega/mavlink.h"
 	#include "Dronard/USBFunctions.h"
