@@ -71,14 +71,16 @@ De volgende bestanden staan in de Dronard map:
 * USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
 * USBFunctions.h - _De header van USBFunctions.c_ __David__
 
+### 1.1.1 MAVLink map
+In deze map staan alle bestanden van MAVLink. Deze zijn niet zelf geschreven en komen van GitHub.
+
 ## 1.2 UI_Functions map
 De volgende bestanden staan in de UI_Functions map:
 
 * UI_Functions.c - _Functies voor het creëren van een user interface_ __David__
 * UI_Functions.h - _De header van UI_Functions.c_ __David__
 
-Deze readme dient voor het overzicht geven van waar aan gewerkt wordt
-op dit moment en om aan te geven wat door wie gemaakt wordt en ontworpen
+## Overig
 
 Iedereen is op dit moment bezig met zijn eigen deel.
 Susan en Arlene zijn bezig met het ultrasoon, deel coderen en verslaggeving
@@ -90,20 +92,4 @@ breiden, half bezig tegelijk de code in het verslag te verwerken. Verder ook
 met het proberen van ROS en pthreads op de raspberry pi indien dit nodig moet
 zijn om MAVROS goed te laten werken of voor een andere functionaliteit.
 
-In deze zip bestand komt versie 6 van de dronard code, hierin staat de main
-Daaronder staan de twee sub bestanden van mavlink functies en usb functies
-In de usb functies staan de codes voor het openen van de px4 en het sluiten
-van de px4. In de mavlink functies, staan alle mavlink functies, deze functies
-zijn gebaseerd op map die er ook bij word gevoegd van alle mavlink functies.
-
-Verder wordt er de huidige code van de ultrasoon bord bijgevoegd, deze moet
-nog in de hoofdcode worden bijgevoegd en worden getest.
-Daarnaast zit er een test functie bij voor pthread.
-
-In het conceptverslag wordt op dit moment hard aan gewerkt om die weer up to
-date te krijgen en af te hebben voor de tweede oplevering.
-
-De tools die gebruikt worden zijn raspberry pi 2, Met daarop Geany wordt
-gebruikt om de hoofdcode te testen en te gebruiken. De build command staat in
-de main.c
 
