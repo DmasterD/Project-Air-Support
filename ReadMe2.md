@@ -56,11 +56,19 @@ Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 De main.h is door __David__ gecodeerd.
 De Makefile is ook door __David__ gecodeerd.
 
-### 1.1 Dronard map
+## 1.1 Dronard map
+In deze map staat één deelmap:
 
+* MAVLink - _Library map van MAVLink_
 
+De volgende bestanden staan in de broncode map:
 
-
+* MAVLinkFunctions.c - _Functies die MAVLink gebruiken_ __David__
+* MAVLinkFunctions.h - _De header van MAVLinkFunctions.c_ __David__
+* Ultrasoon.c - _Functies voor het uitlezen van de ultrasoon en transmitter detectie_ __Mike, Susan en Arlene__
+* Ultrasoon.h - _De header van Ultrasoon.c_ __Mike, Susan en Arlene__
+* USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
+* USBFunctions.h - _De header van USBFunctions.c_ __David__
 
 
 Deze readme dient voor het overzicht geven van waar aan gewerkt wordt
