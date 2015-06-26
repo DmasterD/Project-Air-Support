@@ -36,15 +36,12 @@ De volgende bestanden staan in de broncode map:
 * Makefile - _De Makefile voor het compileren van alles_
 
 De main bestaat uit 4 threads, inclusief the main thread.
-Dit is een thread voor ROS, voor het uitlezen van de ultrasoon, voor de user interface en de main.
-Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's.
+Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 
-Het aanmaken van de threads is gedaan door Martijn.
-De ROS thread is aanwezig, maar ROS zelf is nog niet geïmplementeerd.
-De ultrasoon thread is door Mike gecodeerd.
-De user interface thread is door David gecodeerd.
-De main thread is ook door David gecodeerd.
-
+* ROS thread - _Geen bijdragen_
+* User interface thread - _David_
+* Ultrasoon thread - _Mike, Susan en Arlene_
+* Main thread - _David_
 
 
 
