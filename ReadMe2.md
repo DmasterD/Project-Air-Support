@@ -11,7 +11,7 @@ _De readme is in Markdown formaat geschreven_
 
 Project Air Support - Sint Dronard
 ==================================
-Deze ZIP bevat alleen de laatste versie van de broncode voor het aansturen van de PIXHawk
+Deze ZIP bevat alleen de laatste versie van de broncode voor het aansturen van de PIXHawk.
 Eerdere versies en deelprojecten zijn niet inbegrepen.
 De deelprojecten waren er om kennis te maken met nieuwe libraries.
 Alle kennis die we hiermee hebben opgedaan hebben we de uiteindelijke broncode geschreven.
@@ -41,7 +41,7 @@ De main bestaat uit 4 threads, inclusief the main thread.
 Dit is een thread voor ROS, voor het uitlezen van de ultrasoon, voor de user interface en de main.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's.
 
-### Bijdragers van de main.c
+#### Bijdragers van de main.c
 ROS is er nog niet in geïmplementeerd.
 De threads zijn gemaakt door Martijn
 
