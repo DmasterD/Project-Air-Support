@@ -26,6 +26,8 @@ Een uitvoerbaar bestand genaamd `Run_Dronard` zal worden gemaakt.
 Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen.
 Dit is nodig als er opnieuw moet worden gecompileerd.
 Als een .o bestand al bestaat zal het compileren worden overgeslagen.
+Alle commands zijn uitgevoerd op een UNIX systeem. 
+In de meeste gevallen op de Raspberry Pi 2 zelf die draait op Raspbian.
 
 ## Hoofdmap
 De volgende mappen staan in de hoofd map:
@@ -80,16 +82,7 @@ De volgende bestanden staan in de UI_Functions map:
 * UI_Functions.c - _Functies voor het creëren van een user interface_ __David__
 * UI_Functions.h - _De header van UI_Functions.c_ __David__
 
-## Overig
-
-Iedereen is op dit moment bezig met zijn eigen deel.
-Susan en Arlene zijn bezig met het ultrasoon, deel coderen en verslaggeving
-voor dit project. 
-Mike en Titus zijn bezig met het maken voor de code van het vinden van het
-slachtoffer, de hardware is vandaag (11-6-2015) redelijk werkend gekregen
-Martijn en David zijn bezig de hoofdcode voor de raspberry pi verder uit te
-breiden, half bezig tegelijk de code in het verslag te verwerken. Verder ook
-met het proberen van ROS en pthreads op de raspberry pi indien dit nodig moet
-zijn om MAVROS goed te laten werken of voor een andere functionaliteit.
+# Overig
+Alle andere bijdrages, zoals aan het verslag en hardware worden in het verslag beschreven.
 
 
