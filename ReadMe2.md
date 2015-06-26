@@ -26,13 +26,13 @@ Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen
 Dit is nodig als er opnieuw moet worden gecompileerd.
 Als een .o bestand al bestaat zal het compileren worden overgeslagen.
 
-# Hoofdmap
+## Hoofdmap
 De volgende mappen staan in de hoofd map:
 
 * Dronard_v0.13 - _De map met de broncode_
 * ...
 
-# 1. Broncode map - Dronard_v0.13
+## 1. Broncode map - Dronard_v0.13
 In deze map staan twee deelmappen:
 
 * UI_Functions - _Bevatten codes voor de user interface_
@@ -56,7 +56,7 @@ Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 De main.h is door __David__ gecodeerd.
 De Makefile is ook door __David__ gecodeerd.
 
-# 1.1 Dronard map
+### 1.1 Dronard map
 
 
 
