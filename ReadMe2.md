@@ -1,5 +1,6 @@
-- Met hierin een korte uitleg van de samenhang van de inhoud van de ZIP, zodat we weten
+Met hierin een korte uitleg van de samenhang van de inhoud van de ZIP, zodat we weten
 wat jullie meegestuurd hebben. Vertel per (sub)map:
+
 * Wat de inhoud is (bijv. STM-camera-code)
 * Waar deze voor dient
 * Welke tools er gebruikt zijn (IDE, compilersettings etc.)
