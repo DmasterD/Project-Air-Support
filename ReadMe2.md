@@ -14,11 +14,12 @@ Het compileren van de broncode gebeurt doormiddel van een Makefile.
 Deze gebruikt gcc als compiler.
 In een terminal moet de Makefile aangeroepen worden met `make`.
 Dit zal alles gaan compileren en builden.
-Een uitvoerbaar bestand genaamd `Run_Dronard` zal worden gemaakt.
+Een uitvoerbaar bestand genaamd "Run_Dronard" zal worden gemaakt.
 Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen.
 Dit is nodig als er opnieuw moet worden gecompileerd.
 Als een .o bestand al bestaat zal het compileren worden overgeslagen.
 Alle commands moeten worden uitgevoerd op de Raspberry Pi 2 (die draait op Raspbian OS).
+Het uitvoeren van "Run_Dronard" word gedaan met het command `./Run_Dronard`.
 
 De WiringPi libraries en X11 libraries moeten zijn geïnstalleerd!
 
