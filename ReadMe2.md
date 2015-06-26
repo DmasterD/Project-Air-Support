@@ -1,9 +1,9 @@
 - Met hierin een korte uitleg van de samenhang van de inhoud van de ZIP, zodat we weten
 wat jullie meegestuurd hebben. Vertel per (sub)map:
-o Wat de inhoud is (bijv. STM-camera-code)
-o Waar deze voor dient
-o Welke tools er gebruikt zijn (IDE, compilersettings etc.)
-o Wie wat heeft bijgedragen aan dit onderdeel.
+* Wat de inhoud is (bijv. STM-camera-code)
+* Waar deze voor dient
+* Welke tools er gebruikt zijn (IDE, compilersettings etc.)
+* Wie wat heeft bijgedragen aan dit onderdeel.
 
 _Deze readme dient voor het overzicht geven van de inhoud van deze ZIP_
 _De readme is in Markdown formaat geschreven_
