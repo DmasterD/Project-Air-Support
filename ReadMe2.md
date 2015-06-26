@@ -18,7 +18,8 @@ Een uitvoerbaar bestand genaamd `Run_Dronard` zal worden gemaakt.
 Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen.
 Dit is nodig als er opnieuw moet worden gecompileerd.
 Als een .o bestand al bestaat zal het compileren worden overgeslagen.
-Alle commands zijn uitgevoerd op de Raspberry Pi 2, die draait op Raspbian OS.
+Alle commands moeten worden uitgevoerd op de Raspberry Pi 2 (die draait op Raspbian OS).
+!De WiringPi libraries en X11 libraries moeten zijn geïnstalleerd!
 
 ## Hoofdmap
 De volgende mappen staan in de hoofd map:
