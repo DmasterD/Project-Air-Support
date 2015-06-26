@@ -31,7 +31,19 @@ In deze map staan twee deelmappen:
 * UI_Functions - _Bevatten codes voor de user interface_
 * Dronard - _Bevat de rest van de codes_
 
-De volgende 
+De volgende bestanden staan in de broncode map:
+
+* main.c - _De main waarin alles wordt aangeroepen_
+* main.h - _De header van de main_
+* Makefile - _De Makefile voor het compileren van alles_
+
+De main bestaat uit 4 threads, inclusief the main thread.
+Dit is een thread voor ROS, voor het uitlezen van de ultrasoon, voor de user interface en de main.
+Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's.
+
+# Bijdragers van de main.c
+ROS is er nog niet in geïmplementeerd.
+De threads zijn gemaakt door Martijn
 
 
 
