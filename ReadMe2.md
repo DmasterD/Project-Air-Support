@@ -55,8 +55,8 @@ De volgende bestanden staan in de Dronard map:
 
 * MAVLinkFunctions.c - _Functies die MAVLink gebruiken_ __David__
 * MAVLinkFunctions.h - _De header van MAVLinkFunctions.c_ __David__
-* Ultrasoon.c - _Functies voor het uitlezen van de ultrasoon en transmitter detectie_ __Mike, Susan en Arlene__
-* Ultrasoon.h - _De header van Ultrasoon.c_ __Mike, Susan en Arlene__
+* Ultrasoon.c - _Functies voor het uitlezen van de ultrasoon en transmitter detectie_ __Titus, Mike, Susan en Arlene__
+* Ultrasoon.h - _De header van Ultrasoon.c_ __Titus, Mike, Susan en Arlene__
 * USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
 * USBFunctions.h - _De header van USBFunctions.c_ __David__
 
