@@ -18,8 +18,7 @@ Een uitvoerbaar bestand genaamd `Run_Dronard` zal worden gemaakt.
 Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen.
 Dit is nodig als er opnieuw moet worden gecompileerd.
 Als een .o bestand al bestaat zal het compileren worden overgeslagen.
-Alle commands zijn uitgevoerd op een UNIX systeem. 
-In de meeste gevallen op de Raspberry Pi 2 zelf die draait op Raspbian.
+Alle commands zijn uitgevoerd op de Raspberry Pi 2, die draait op Raspbian OS.
 
 ## Hoofdmap
 De volgende mappen staan in de hoofd map:
