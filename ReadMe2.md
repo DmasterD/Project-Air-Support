@@ -14,15 +14,15 @@ Project Air Support - Sint Dronard
 Deze ZIP bevat alleen de laatste versie van de broncode voor het aansturen van de PIXHawk.
 Eerdere versies en deelprojecten zijn niet inbegrepen.
 De deelprojecten waren er om kennis te maken met nieuwe libraries.
-Alle kennis die we hiermee hebben opgedaan hebben we de uiteindelijke broncode geschreven.
-In de broncode zijn deze deelprojecten dus deels verwoven.
+Met alle kennis die we hiermee hebben opgedaan, hebben we de uiteindelijke broncode geschreven.
+In de broncode zijn deze deelprojecten dus verwoven.
 
 Het compileren van de broncode gebeurt doormiddel van een Makefile.
 Deze gebruikt gcc als compiler.
-In een terminal moet de Makefile aangeroepen worden met "make".
+In een terminal moet de Makefile aangeroepen worden met `make`.
 Dit zal alles gaan compileren en builden.
-Een uitvoerbaar bestand genaamd "Run_Dronard" zal worden gemaakt.
-Vervolgens kan "make clean" worden aanroepen om alle .o bestanden te verwijderen.
+Een uitvoerbaar bestand genaamd `Run_Dronard` zal worden gemaakt.
+Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen.
 Dit is nodig als er opnieuw moet worden gecompileerd.
 Als het .o bestand al bestaat zal het compileren worden overgeslagen.
 
