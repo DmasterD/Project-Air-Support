@@ -17,15 +17,13 @@ De deelprojecten waren er om kennis te maken met nieuwe libraries.
 Alle kennis die we hiermee hebben opgedaan hebben we de uiteindelijke broncode geschreven.
 In de broncode zijn deze deelprojecten dus deels verwoven.
 
-Hoofdmap
---------
+# Hoofdmap
 De volgende mappen staan in de hoofd map:
 
 * Dronard_v0.13 - _De map met de broncode_
 * ...
 
-Broncode map - Dronard_v0.13
-----------------------------
+# 1. Broncode map - Dronard_v0.13
 In deze map staan twee deelmappen:
 
 * UI_Functions - _Bevatten codes voor de user interface_
@@ -41,9 +39,11 @@ De main bestaat uit 4 threads, inclusief the main thread.
 Dit is een thread voor ROS, voor het uitlezen van de ultrasoon, voor de user interface en de main.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's.
 
-#### Bijdragers van de main.c
-ROS is er nog niet in geïmplementeerd.
-De threads zijn gemaakt door Martijn
+Het aanmaken van de threads is gedaan door Martijn.
+De ROS thread is aanwezig, maar ROS zelf is nog niet geïmplementeerd.
+De ultrasoon thread is door Mike gecodeerd.
+De user interface thread is door David gecodeerd.
+De main thread is ook door David gecodeerd.
 
 
 
