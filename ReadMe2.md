@@ -22,12 +22,6 @@ Alle commands moeten worden uitgevoerd op de Raspberry Pi 2 (die draait op Raspb
 
 De WiringPi libraries en X11 libraries moeten zijn geïnstalleerd!
 
-## Hoofdmap
-De volgende mappen staan in de hoofd map:
-
-* Dronard_v0.13 - _De map met de broncode_
-* ...
-
 ## 1. Broncode map - Dronard_v0.13
 In deze map staan twee deelmappen:
 
