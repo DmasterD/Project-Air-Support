@@ -41,7 +41,7 @@ De main bestaat uit 4 threads, inclusief the main thread.
 Dit is een thread voor ROS, voor het uitlezen van de ultrasoon, voor de user interface en de main.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's.
 
-# Bijdragers van de main.c
+### Bijdragers van de main.c
 ROS is er nog niet in geïmplementeerd.
 De threads zijn gemaakt door Martijn
 
