@@ -48,7 +48,7 @@ De volgende bestanden staan in de broncode map:
 De main.c bestaat uit 4 threads, inclusief the main thread.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 
-* Threads algemeen - __Martijn__
+* PThreads algemeen - __Martijn__
 * ROS thread - __Geen bijdragen__
 * User interface thread - __David__
 * Ultrasoon thread - __Mike, Susan en Arlene__
@@ -62,7 +62,7 @@ In deze map staat één deelmap:
 
 * MAVLink - _Library map van MAVLink_
 
-De volgende bestanden staan in de broncode map:
+De volgende bestanden staan in de Dronard map:
 
 * MAVLinkFunctions.c - _Functies die MAVLink gebruiken_ __David__
 * MAVLinkFunctions.h - _De header van MAVLinkFunctions.c_ __David__
@@ -71,6 +71,11 @@ De volgende bestanden staan in de broncode map:
 * USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
 * USBFunctions.h - _De header van USBFunctions.c_ __David__
 
+## 1.2 UI_Functions map
+De volgende bestanden staan in de UI_Functions map:
+
+* UI_Functions.c - _Functies voor het creëren van een user interface_ __David__
+* UI_Functions.h - _De header van UI_Functions.c_ __David__
 
 Deze readme dient voor het overzicht geven van waar aan gewerkt wordt
 op dit moment en om aan te geven wat door wie gemaakt wordt en ontworpen
