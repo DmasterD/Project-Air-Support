@@ -44,7 +44,7 @@ De volgende bestanden staan in de broncode map:
 * main.h - _De header van de main_
 * Makefile - _De Makefile voor het compileren van alles_
 
-De main bestaat uit 4 threads, inclusief the main thread.
+De main.c bestaat uit 4 threads, inclusief the main thread.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 
 * Threads algemeen - __Martijn__
@@ -53,6 +53,10 @@ Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 * Ultrasoon thread - __Mike, Susan en Arlene__
 * Main thread - __David__
 
+De main.h is door __David__ gecodeerd.
+De Makefile is ook door __David__ gecodeerd.
+
+# 1.1 Dronard map
 
 
 
