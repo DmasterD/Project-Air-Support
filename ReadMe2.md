@@ -24,9 +24,7 @@ Dit zal alles gaan compileren en builden.
 Een uitvoerbaar bestand genaamd `Run_Dronard` zal worden gemaakt.
 Vervolgens kan `make clean` worden aanroepen om alle .o bestanden te verwijderen.
 Dit is nodig als er opnieuw moet worden gecompileerd.
-Als het .o bestand al bestaat zal het compileren worden overgeslagen.
-
-
+Als een .o bestand al bestaat zal het compileren worden overgeslagen.
 
 # Hoofdmap
 De volgende mappen staan in de hoofd map:
@@ -49,10 +47,10 @@ De volgende bestanden staan in de broncode map:
 De main bestaat uit 4 threads, inclusief the main thread.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 
-* ROS thread - _Geen bijdragen_
-* User interface thread - _David_
-* Ultrasoon thread - _Mike, Susan en Arlene_
-* Main thread - _David_
+* ROS thread - __Geen bijdragen__
+* User interface thread - __David__
+* Ultrasoon thread - __Mike, Susan en Arlene__
+* Main thread - __David__
 
 
 
