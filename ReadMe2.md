@@ -8,6 +8,7 @@ wat jullie meegestuurd hebben. Vertel per (sub)map:
 
 _Deze readme dient voor het overzicht geven van de inhoud van deze ZIP_
 _De readme is in Markdown formaat geschreven_
+_De namen in bold stellen de makers voor, oftewel een dubbele underscore aan het begin en einde van de naam_
 
 Project Air Support - Sint Dronard
 ==================================
