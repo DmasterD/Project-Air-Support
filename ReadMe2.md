@@ -47,6 +47,7 @@ De volgende bestanden staan in de broncode map:
 De main bestaat uit 4 threads, inclusief the main thread.
 Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 
+* Threads algemeen - __Martijn__
 * ROS thread - __Geen bijdragen__
 * User interface thread - __David__
 * Ultrasoon thread - __Mike, Susan en Arlene__
