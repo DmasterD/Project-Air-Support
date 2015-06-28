@@ -42,7 +42,7 @@ Deze worden parallel uitgevoerd op de Raspberry Pi 2 met 4 CPU's:
 * ROS thread - __Geen bijdragen__
 * User interface thread - __David__
 * Ultrasoon thread - __Mike, Susan en Arlene__
-* Main thread - __David__
+* Main thread - __David, Martijn__
 
 De main.h is door __David__ gecodeerd.
 De Makefile is ook door __David__ gecodeerd.
@@ -57,10 +57,10 @@ De volgende bestanden staan in de Dronard map:
 * MAVLinkFunctions.c - _Functies die MAVLink gebruiken_ __David__
 * MAVLinkFunctions.h - _De header van MAVLinkFunctions.c_ __David__
 * Ultrasoon.c - _Functies voor het uitlezen van de ultrasoon en transmitter detectie_ __Titus, Mike, Susan en Arlene__
-* Ultrasoon.h - _De header van Ultrasoon.c_ __Titus, Mike, Susan en Arlene__
+* Ultrasoon.h - _De header van Ultrasoon.c_ __Martijn__
 * USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
 * USBFunctions.h - _De header van USBFunctions.c_ __David__
-
+* px4_custom_mode - _De header voor Pixhawk modes_ __Martijn__ (zie bestand)
 ### 1.1.1 MAVLink map
 In deze map staan alle bestanden van MAVLink. Deze zijn niet zelf geschreven en komen van GitHub.
 
