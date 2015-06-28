@@ -61,6 +61,7 @@ De volgende bestanden staan in de Dronard map:
 * USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
 * USBFunctions.h - _De header van USBFunctions.c_ __David__
 * px4_custom_mode - _De header voor Pixhawk modes_ __Martijn__ (zie bestand)
+
 ### 1.1.1 MAVLink map
 In deze map staan alle bestanden van MAVLink. Deze zijn niet zelf geschreven en komen van GitHub.
 
@@ -69,6 +70,11 @@ De volgende bestanden staan in de UI_Functions map:
 
 * UI_Functions.c - _Functies voor het creëren van een user interface_ __David__
 * UI_Functions.h - _De header van UI_Functions.c_ __David__
+
+De user interface moet nog verder ontwikkeld worden.
+Het verversen van het scherm gebeurt alleen bij veranderingen aan het "window" zelf, bijvoorbeeld de grootte.
+Het verversen met de een framesnelheid moet nog gecodeerd worden.
+Er is ook een knop aanwezig met een rode rand, deze sluit het programma af.
 
 # Overig
 Alle andere bijdrages, zoals aan het verslag en hardware worden in het verslag beschreven.
