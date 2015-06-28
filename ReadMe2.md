@@ -60,7 +60,7 @@ De volgende bestanden staan in de Dronard map:
 * Ultrasoon.h - _De header van Ultrasoon.c_ __Martijn__
 * USBFunctions.c - _Functies voor het uitlezen/versturen van data over de USB poort van de Raspberry Pi_ __David__
 * USBFunctions.h - _De header van USBFunctions.c_ __David__
-* px4_custom_mode - _De header voor Pixhawk modes_ __Martijn__ (zie bestand)
+* px4_custom_mode - _De header voor Pixhawk mode.h_ __Martijn__
 
 ### 1.1.1 MAVLink map
 In deze map staan alle bestanden van MAVLink. Deze zijn niet zelf geschreven en komen van GitHub.
