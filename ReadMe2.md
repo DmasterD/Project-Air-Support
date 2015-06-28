@@ -72,7 +72,7 @@ De volgende bestanden staan in de UI_Functions map:
 * UI_Functions.h - _De header van UI_Functions.c_ __David__
 
 De user interface moet nog verder ontwikkeld worden.
-Het verversen van het scherm gebeurt alleen bij veranderingen aan het "window" zelf, bijvoorbeeld de grootte.
+Het verversen van het scherm gebeurt alleen bij veranderingen aan het "window" zelf, bijvoorbeeld de grootte of het mini-/maximalizeren.
 Het verversen met de een framesnelheid moet nog gecodeerd worden.
 Er is ook een knop aanwezig met een rode rand, deze sluit het programma af.
 
